@@ -9,3 +9,13 @@ Author  RAJ
 7.) git commit -m ""
 8.) git push origin main
 Thanks my watching project you can use
+
+
+f you get data  fetch--->  http://localhost:5000/api/products/
+if you signup---->http://localhost:5000/api/user/signup
+                                 
+if you login---->  http://localhost:5000/api/user/signin
+
+backend start  nodemon-->npm run dev   make sure configration in package.json
+forntend start srcor package json data cd  --->npm start
+
