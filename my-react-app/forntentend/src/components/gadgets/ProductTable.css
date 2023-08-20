@@ -1,0 +1,70 @@
+
+.product-card {
+  position: relative;
+  width: 250px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.product-details {
+  margin-top: 10px;
+}
+
+.product-name {
+  font-weight: bold;
+}
+
+.product-price {
+  color: #e74c3c;
+}
+
+.product-stock {
+  color: #3498db;
+}
+/* ProductTable.css */
+.product-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Optional: You can adjust the alignment as needed */
+}
+
+.product-card {
+  /* ...existing styles... */
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shop-now-link {
+  margin-top: 10px;
+}
+
+.shop-now-link a {
+  text-decoration: none;
+  color: #3498db;
+  font-weight: bold;
+  border: 1px solid #3498db;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.shop-now-link a:hover {
+  background-color: #3498db;
+  color: #fff;
+}
